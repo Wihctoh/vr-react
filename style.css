@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-style: normal;
+  font-family: "Montserrat";
+  text-decoration: none;
+}
+
+body {
+  width: 420px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: #302c42;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  margin-top: 25.66px;
+}
+header .header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  gap: 11px;
+}
+header .header-wrapper .header__logo {
+  background-image: url(./img/header-logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 69px;
+  height: 60px;
+  margin-left: 20px;
+}
+header .header-wrapper .header__title {
+  background-image: url(./img/header-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 46px;
+  height: 28px;
+  margin-bottom: 6px;
+}
+header .header__nav {
+  background-image: url(./img/Hamburger-Button.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 33px;
+  height: 26px;
+  margin-bottom: 7.2px;
+  margin-right: 20px;
+}
+
+.vr__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 57px;
+}
+.vr__title .vr__title-wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.vr__title .vr__title-wrapper .vr__title-img {
+  background-image: url(./img/vr-title-img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 318.67px;
+  height: 277px;
+}
+.vr__title .vr__title-wrapper .vr__title-img-background {
+  background-image: url(./img/vr-title-img-background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 340px;
+  height: 296px;
+  position: absolute;
+  top: -12px;
+  z-index: -1;
+}
+.vr__title .vr__title-wrapper .vector1 {
+  background-image: url(./img/Vector\ 1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 347px;
+  height: 562px;
+  position: absolute;
+  left: 63px;
+  bottom: -213px;
+  z-index: -2;
+}
+.vr__title .vr__title-wrapper .vector2 {
+  background-image: url(./img/Vector\ 2.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 347px;
+  height: 562px;
+  position: absolute;
+  left: 32px;
+  bottom: -206px;
+  z-index: -2;
+}
+.vr__title h1 {
+  margin-top: 40px;
+  text-align: center;
+  width: 329px;
+  font: 700 24px "Montserrat";
+  line-height: 43.88px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vr__title h1 span {
+  font: 700 36px "Montserrat";
+  font-weight: 700;
+  line-height: 44px;
+  background: linear-gradient(91.57deg, #c0b7e8 -1.02%, #8176af 36.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.vr__title .vr__title-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 292px;
+  height: 52px;
+  background: -webkit-gradient(linear, left top, right top, from(#8176af), to(#c0b7e8));
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border-radius: 40px;
+  font: 700 14px "Montserrat";
+  line-height: 17px;
+  color: #343045;
+  margin-top: 36px;
+}
+.vr__title .vr__title-adress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 53px;
+  width: 347px;
+  height: 109px;
+  background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211e2e 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+          box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  border-radius: 90px;
+}
+.vr__title .vr__title-adress .vr__title-slider-left {
+  background-image: url(./img/chevron-circle-left.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 5px;
+}
+.vr__title .vr__title-adress .vr__title-geologo {
+  background-image: url(./img/Location-Icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 70px;
+  height: 70px;
+  margin-top: 21px;
+}
+.vr__title .vr__title-adress .vr__title-text {
+  margin-top: 40px;
+  width: 195px;
+  height: 40px;
+  font: 400 14px "Montserrat";
+  line-height: 17px;
+  color: #ffffff;
+}
+.vr__title .vr__title-adress .vr__title-slider-right {
+  background-image: url(./img/chevron-circle-right.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin-top: 40px;
+  margin-right: 5px;
+}
