@@ -1,3 +1,8 @@
+.vr__title .vr__title-adress .vr__title-slider-right, .vr__title .vr__title-adress .vr__title-geologo, .vr__title .vr__title-adress .vr__title-slider-left, .vr__title .vr__title-wrapper .vr__title-img-background, .vr__title .vr__title-wrapper .vr__title-img, header .header__nav, header .header-wrapper .header__title, header .header-wrapper .header__logo, .vr__title-img-background-vector {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,6 +18,13 @@ body {
   padding: 0 15px;
   margin: 0 auto;
   background-color: #302c42;
+  position: relative;
+}
+
+.vr__title-img-background-vector {
+  background-image: url(./img/Vector\ 1.png);
+  width: 347px;
+  height: 562px;
 }
 
 header {
@@ -38,24 +50,18 @@ header .header-wrapper {
 }
 header .header-wrapper .header__logo {
   background-image: url(./img/header-logo.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 69px;
   height: 60px;
   margin-left: 20px;
 }
 header .header-wrapper .header__title {
   background-image: url(./img/header-img.png);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 46px;
   height: 28px;
   margin-bottom: 6px;
 }
 header .header__nav {
   background-image: url(./img/Hamburger-Button.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 33px;
   height: 26px;
   margin-bottom: 7.2px;
@@ -86,49 +92,23 @@ header .header__nav {
 }
 .vr__title .vr__title-wrapper .vr__title-img {
   background-image: url(./img/vr-title-img.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 318.67px;
+  width: 319px;
   height: 277px;
 }
 .vr__title .vr__title-wrapper .vr__title-img-background {
   background-image: url(./img/vr-title-img-background.png);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 340px;
   height: 296px;
   position: absolute;
   top: -12px;
   z-index: -1;
 }
-.vr__title .vr__title-wrapper .vector1 {
-  background-image: url(./img/Vector\ 1.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 347px;
-  height: 562px;
-  position: absolute;
-  left: 63px;
-  bottom: -213px;
-  z-index: -2;
-}
-.vr__title .vr__title-wrapper .vector2 {
-  background-image: url(./img/Vector\ 2.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 347px;
-  height: 562px;
-  position: absolute;
-  left: 32px;
-  bottom: -206px;
-  z-index: -2;
-}
 .vr__title h1 {
   margin-top: 40px;
   text-align: center;
   width: 329px;
   font: 700 24px "Montserrat";
-  line-height: 43.88px;
+  line-height: 29px;
   color: #ffffff;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -179,8 +159,6 @@ header .header__nav {
 }
 .vr__title .vr__title-adress .vr__title-slider-left {
   background-image: url(./img/chevron-circle-left.png);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 30px;
   height: 30px;
   margin-top: 40px;
@@ -188,8 +166,6 @@ header .header__nav {
 }
 .vr__title .vr__title-adress .vr__title-geologo {
   background-image: url(./img/Location-Icon.png);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 70px;
   height: 70px;
   margin-top: 21px;
@@ -204,8 +180,6 @@ header .header__nav {
 }
 .vr__title .vr__title-adress .vr__title-slider-right {
   background-image: url(./img/chevron-circle-right.png);
-  background-repeat: no-repeat;
-  background-size: contain;
   width: 30px;
   height: 30px;
   margin-top: 40px;

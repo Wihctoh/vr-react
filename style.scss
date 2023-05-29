@@ -1,6 +1,11 @@
-// color variables
+//------------- color variables -------------------
 $violete-color: #302c42;
-
+// extends
+%background-img-template {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+//------------- global param -------------------
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +20,14 @@ body {
   padding: 0 15px;
   margin: 0 auto;
   background-color: $violete-color;
+  position: relative;
+}
+
+.vr__title-img-background-vector {
+  background-image: url(./img/Vector\ 1.png);
+  @extend %background-img-template;
+  width: 347px;
+  height: 562px;
 }
 //--------------------Header--------------------------
 header {
@@ -30,8 +43,7 @@ header {
 
     .header__logo {
       background-image: url(./img/header-logo.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
+      @extend %background-img-template;
       width: 69px;
       height: 60px;
       margin-left: 20px;
@@ -39,8 +51,7 @@ header {
 
     .header__title {
       background-image: url(./img/header-img.png);
-      background-repeat: no-repeat;
-      background-size: contain;
+      @extend %background-img-template;
       width: 46px;
       height: 28px;
       margin-bottom: 6px;
@@ -49,8 +60,7 @@ header {
 
   .header__nav {
     background-image: url(./img/Hamburger-Button.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
+    @extend %background-img-template;
     width: 33px;
     height: 26px;
     margin-bottom: 7.2px;
@@ -71,43 +81,18 @@ header {
 
     .vr__title-img {
       background-image: url(./img/vr-title-img.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 318.67px;
+      @extend %background-img-template;
+      width: 319px;
       height: 277px;
     }
     .vr__title-img-background {
       background-image: url(./img/vr-title-img-background.png);
-      background-repeat: no-repeat;
-      background-size: contain;
+      @extend %background-img-template;
       width: 340px;
       height: 296px;
       position: absolute;
       top: -12px;
       z-index: -1;
-    }
-
-    .vector1 {
-      background-image: url(./img/Vector\ 1.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 347px;
-      height: 562px;
-      position: absolute;
-      left: 63px;
-      bottom: -213px;
-      z-index: -2;
-    }
-    .vector2 {
-      background-image: url(./img/Vector\ 2.png);
-      background-repeat: no-repeat;
-      background-size: contain;
-      width: 347px;
-      height: 562px;
-      position: absolute;
-      left: 32px;
-      bottom: -206px;
-      z-index: -2;
     }
   }
 
@@ -162,8 +147,7 @@ header {
 
     .vr__title-slider-left {
       background-image: url(./img/chevron-circle-left.png);
-      background-repeat: no-repeat;
-      background-size: contain;
+      @extend %background-img-template;
       width: 30px;
       height: 30px;
       margin-top: 40px;
@@ -172,8 +156,7 @@ header {
 
     .vr__title-geologo {
       background-image: url(./img/Location-Icon.png);
-      background-repeat: no-repeat;
-      background-size: contain;
+      @extend %background-img-template;
       width: 70px;
       height: 70px;
       margin-top: 21px;
@@ -190,8 +173,7 @@ header {
 
     .vr__title-slider-right {
       background-image: url(./img/chevron-circle-right.png);
-      background-repeat: no-repeat;
-      background-size: contain;
+      @extend %background-img-template;
       width: 30px;
       height: 30px;
       margin-top: 40px;
