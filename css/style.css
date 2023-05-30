@@ -6,8 +6,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-style: normal;
   font-family: "Montserrat";
   text-decoration: none;
@@ -22,46 +21,36 @@ body {
 }
 
 .vr__title-img-background-vector {
-  background-image: url(./img/Vector\ 1.png);
+  background-image: url(../img/Vector\ 1.png);
   width: 347px;
   height: 562px;
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  justify-content: space-between;
+  align-items: end;
   margin-top: 25.66px;
 }
 header .header-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: end;
+  align-items: end;
   gap: 11px;
 }
 header .header-wrapper .header__logo {
-  background-image: url(./img/header-logo.svg);
+  background-image: url(../img/header-logo.svg);
   width: 69px;
   height: 60px;
   margin-left: 20px;
 }
 header .header-wrapper .header__title {
-  background-image: url(./img/header-img.png);
+  background-image: url(../img/header-img.png);
   width: 46px;
   height: 28px;
   margin-bottom: 6px;
 }
 header .header__nav {
-  background-image: url(./img/Hamburger-Button.svg);
+  background-image: url(../img/Hamburger-Button.svg);
   width: 33px;
   height: 26px;
   margin-bottom: 7.2px;
@@ -69,34 +58,23 @@ header .header__nav {
 }
 
 .vr__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin-top: 57px;
 }
 .vr__title .vr__title-wrapper {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 .vr__title .vr__title-wrapper .vr__title-img {
-  background-image: url(./img/vr-title-img.png);
+  background-image: url(../img/vr-title-img.png);
   width: 319px;
   height: 277px;
 }
 .vr__title .vr__title-wrapper .vr__title-img-background {
-  background-image: url(./img/vr-title-img-background.png);
+  background-image: url(../img/vr-title-img-background.png);
   width: 340px;
   height: 296px;
   position: absolute;
@@ -123,18 +101,11 @@ header .header__nav {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .vr__title .vr__title-btn {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   width: 292px;
   height: 52px;
-  background: -webkit-gradient(linear, left top, right top, from(#8176af), to(#c0b7e8));
   background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
   border-radius: 40px;
   font: 700 14px "Montserrat";
@@ -143,29 +114,24 @@ header .header__nav {
   margin-top: 36px;
 }
 .vr__title .vr__title-adress {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-top: 53px;
   width: 347px;
   height: 109px;
   background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211e2e 100%);
-  -webkit-box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
-          box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
   border-radius: 90px;
 }
 .vr__title .vr__title-adress .vr__title-slider-left {
-  background-image: url(./img/chevron-circle-left.png);
+  background-image: url(../img/chevron-circle-left.png);
   width: 30px;
   height: 30px;
   margin-top: 40px;
   margin-left: 5px;
 }
 .vr__title .vr__title-adress .vr__title-geologo {
-  background-image: url(./img/Location-Icon.png);
+  background-image: url(../img/Location-Icon.png);
   width: 70px;
   height: 70px;
   margin-top: 21px;
@@ -179,9 +145,9 @@ header .header__nav {
   color: #ffffff;
 }
 .vr__title .vr__title-adress .vr__title-slider-right {
-  background-image: url(./img/chevron-circle-right.png);
+  background-image: url(../img/chevron-circle-right.png);
   width: 30px;
   height: 30px;
   margin-top: 40px;
   margin-right: 5px;
-}
+}/*# sourceMappingURL=style.css.map */

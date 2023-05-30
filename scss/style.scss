@@ -24,7 +24,7 @@ body {
 }
 
 .vr__title-img-background-vector {
-  background-image: url(./img/Vector\ 1.png);
+  background-image: url(../img/Vector\ 1.png);
   @extend %background-img-template;
   width: 347px;
   height: 562px;
@@ -42,7 +42,7 @@ header {
     gap: 11px;
 
     .header__logo {
-      background-image: url(./img/header-logo.svg);
+      background-image: url(../img/header-logo.svg);
       @extend %background-img-template;
       width: 69px;
       height: 60px;
@@ -50,7 +50,7 @@ header {
     }
 
     .header__title {
-      background-image: url(./img/header-img.png);
+      background-image: url(../img/header-img.png);
       @extend %background-img-template;
       width: 46px;
       height: 28px;
@@ -59,7 +59,7 @@ header {
   }
 
   .header__nav {
-    background-image: url(./img/Hamburger-Button.svg);
+    background-image: url(../img/Hamburger-Button.svg);
     @extend %background-img-template;
     width: 33px;
     height: 26px;
@@ -80,13 +80,13 @@ header {
     justify-content: center;
 
     .vr__title-img {
-      background-image: url(./img/vr-title-img.png);
+      background-image: url(../img/vr-title-img.png);
       @extend %background-img-template;
       width: 319px;
       height: 277px;
     }
     .vr__title-img-background {
-      background-image: url(./img/vr-title-img-background.png);
+      background-image: url(../img/vr-title-img-background.png);
       @extend %background-img-template;
       width: 340px;
       height: 296px;
@@ -146,7 +146,7 @@ header {
     border-radius: 90px;
 
     .vr__title-slider-left {
-      background-image: url(./img/chevron-circle-left.png);
+      background-image: url(../img/chevron-circle-left.png);
       @extend %background-img-template;
       width: 30px;
       height: 30px;
@@ -155,7 +155,7 @@ header {
     }
 
     .vr__title-geologo {
-      background-image: url(./img/Location-Icon.png);
+      background-image: url(../img/Location-Icon.png);
       @extend %background-img-template;
       width: 70px;
       height: 70px;
@@ -172,7 +172,7 @@ header {
     }
 
     .vr__title-slider-right {
-      background-image: url(./img/chevron-circle-right.png);
+      background-image: url(../img/chevron-circle-right.png);
       @extend %background-img-template;
       width: 30px;
       height: 30px;
